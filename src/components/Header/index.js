@@ -9,8 +9,8 @@ const Header = () => (
   <S.Wrapper>
     <Logo color='black' size='normal'/>
     <h2 className='job-position'>Front-end <br/> Developer</h2>
-    <span>{Infos.number}</span> 
-    <span>{Infos.email}</span> 
+    <a className="link" href="/" target="_blank">{Infos.number}</a> 
+    <a className="link" href="/" target="_blank">{Infos.email}</a> 
   </S.Wrapper>
 )
 

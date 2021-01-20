@@ -17,10 +17,11 @@ export const Wrapper = styled.header`
     margin-right: ${theme.spacings.giga};
   }
 
-  span{
+  .link{
     color: ${theme.colors.black};
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: none;
     &:not(:last-child){
       margin-right: 4rem;
       &:after{
